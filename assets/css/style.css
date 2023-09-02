@@ -1,0 +1,66 @@
+::placeholder {
+  font-size: 15px;
+}
+
+.box {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.margin {
+  margin-right: 20px;
+}
+.margin .normal-input {
+  outline: none;
+  border: none;
+  background-color: rgba(19, 201, 201, 0.075);
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  width: 60vw;
+  padding-bottom: 4px;
+}
+.margin .normal-btn {
+  border: none;
+  background-color: rgba(19, 201, 201, 0.075);
+  color: #b4b4b4;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.btn-kharid {
+  display: flex;
+  border: none;
+  border-radius: 9px;
+  background-color: rgba(19, 201, 201, 0.075);
+  height: 30px;
+  width: 6.5rem;
+}
+.btn-kharid .btn-txt {
+  font-size: 11px;
+}
+.btn-kharid .login {
+  font-size: 20px;
+}
+
+.border-rast {
+  border-right: 2px solid rgba(0, 0, 0, 0.089);
+  height: 30px;
+}
+
+.font {
+  font-size: 13px;
+}
+.font .cursor {
+  cursor: pointer;
+}
+.font .border-rast2 {
+  border-right: 2px solid rgba(0, 0, 0, 0.089);
+  height: 20px;
+}
+.font .font-icon {
+  margin-top: 2px;
+  font-size: 19px;
+}
+
+/*# sourceMappingURL=style.css.map */

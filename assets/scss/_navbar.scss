@@ -1,0 +1,49 @@
+::placeholder {
+    font-size: 15px;
+}
+.box{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.margin {
+    margin-right: 20px;
+
+    .normal-input {
+        outline: none;
+        @include btnstyle();
+        border-top-left-radius: $radius;
+        border-bottom-left-radius: $radius;
+        width: 60vw;
+        padding-bottom: 4px;
+    }
+
+    .normal-btn {
+        @include btnstyle();
+        color: #b4b4b4;
+        border-top-right-radius: $radius;
+        border-bottom-right-radius: $radius;
+    }
+}
+.btn-kharid {
+    display: flex;
+    border: none;
+    border-radius: $radius;
+    background-color: $rang;
+    height: 30px;
+    width: 6.5rem;
+
+    .btn-txt {
+
+        font-size: 11px;
+    }
+
+    .login {
+        font-size: 20px;
+    }
+}
+
+.border-rast {
+    border-right: $takborder;
+    height: 30px;
+}

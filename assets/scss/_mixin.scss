@@ -1,0 +1,8 @@
+@mixin btnstyle {
+    border: none;
+    background-color: $rang;
+}
+@mixin rast2 {
+    border-right: $takborder;
+    height: 20px;
+}

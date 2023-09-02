@@ -1,0 +1,13 @@
+.font {
+    .cursor{
+        cursor: pointer;
+    }
+    font-size: 13px;
+    .border-rast2 {
+        @include rast2();
+    }
+    .font-icon {
+        margin-top: 2px;
+        font-size: 19px;
+    }
+}
