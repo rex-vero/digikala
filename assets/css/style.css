@@ -69,4 +69,22 @@
   font-size: 19px;
 }
 
+.ax {
+  height: 3rem;
+  width: 3rem;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.font-icon2 {
+  font-size: 42px;
+}
+.font-icon2:active {
+  transition: 0.1s;
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0.582);
+}
+
 /*# sourceMappingURL=style.css.map */
