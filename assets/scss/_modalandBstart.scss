@@ -5,6 +5,10 @@
 
 .cursor {
     cursor: pointer;
+    &:hover{
+        transition: all 0.4;
+        transform: scale(1.06);
+    }
 }
 
 .font-icon2 {

@@ -71,6 +71,10 @@
 .cursor {
   cursor: pointer;
 }
+.cursor:hover {
+  transition: all 0.4;
+  transform: scale(1.06);
+}
 
 .font-icon2 {
   font-size: 42px;
@@ -166,6 +170,17 @@
   87% {
     box-shadow: 0.2em -0.2em 0 0 currentcolor;
   }
+}
+.chasb {
+  left: 47px;
+  position: fixed;
+  bottom: 7px;
+  cursor: pointer;
+}
+
+.axdo {
+  height: 8rem;
+  width: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
