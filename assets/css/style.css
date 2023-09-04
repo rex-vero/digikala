@@ -176,11 +176,33 @@
   position: fixed;
   bottom: 7px;
   cursor: pointer;
+  z-index: 1;
 }
 
 .axdo {
   height: 8rem;
   width: auto;
+}
+
+.axse {
+  height: 5.5rem;
+  width: auto;
+}
+
+.axch {
+  height: 7.2rem;
+  width: auto;
+}
+
+.card {
+  border: none;
+}
+.card .card-header {
+  border: none;
+}
+
+.rounded-5 {
+  border-radius: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
