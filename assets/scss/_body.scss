@@ -1,21 +1,55 @@
-.axdo{
-    height:8rem;
-    width: auto;
-    }
-    .axse{
-        height: 5.5rem;
-        width: auto;
-    }
- .axch{
-    height: 7.2rem;
-    width: auto;
- }
- .card{
-    .card-header{
-        border: none;
-    }
-    border: none;
- }
- .rounded-5{
-    border-radius: 5%;
- }
+.axdo {
+   height: 8rem;
+   width: auto;
+}
+
+.axse {
+   height: 5.5rem;
+   width: auto;
+}
+
+.axch {
+   height: 7.2rem;
+   width: 7.2rem;
+}
+
+.card {
+   .card-header {
+      border: none;
+   }
+
+   border: none;
+}
+
+.rounded-5 {
+   border-radius: 5%;
+}
+
+.bg-banafsh {
+   background-color: purple;
+}
+
+.axpa {
+   height: 3rem;
+   width: auto;
+}
+
+.axrast {
+   border-top-right-radius: $radius;
+   border-bottom-right-radius: $radius;
+}
+
+.axchap {
+   border-top-left-radius: $radius;
+   border-bottom-left-radius: $radius;
+}
+
+.axsh {
+   height: 2.2rem;
+   width: auto;
+}
+
+.text {
+   margin-top: -40px;
+   margin-left: 40px;
+}

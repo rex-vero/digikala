@@ -191,7 +191,7 @@
 
 .axch {
   height: 7.2rem;
-  width: auto;
+  width: 7.2rem;
 }
 
 .card {
@@ -203,6 +203,35 @@
 
 .rounded-5 {
   border-radius: 5%;
+}
+
+.bg-banafsh {
+  background-color: purple;
+}
+
+.axpa {
+  height: 3rem;
+  width: auto;
+}
+
+.axrast {
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.axchap {
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+
+.axsh {
+  height: 2.2rem;
+  width: auto;
+}
+
+.text {
+  margin-top: -40px;
+  margin-left: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
