@@ -6,8 +6,8 @@
 .cursor {
     cursor: pointer;
     &:hover{
-        transition: all 0.4;
-        transform: scale(1.06);
+        transition: 0.3s;
+        transform: scale(1.06,1.06);
     }
 }
 

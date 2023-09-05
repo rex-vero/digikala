@@ -1,3 +1,20 @@
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 9px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 ::placeholder {
   font-size: 15px;
 }
@@ -32,7 +49,6 @@
   display: flex;
   border: none;
   border-radius: 9px;
-  background-color: rgba(19, 201, 201, 0.075);
   height: 30px;
   width: 6.5rem;
 }
@@ -72,8 +88,8 @@
   cursor: pointer;
 }
 .cursor:hover {
-  transition: all 0.4;
-  transform: scale(1.06);
+  transition: 0.3s;
+  transform: scale(1.06, 1.06);
 }
 
 .font-icon2 {
@@ -227,11 +243,24 @@
 .axsh {
   height: 2.2rem;
   width: auto;
+  z-index: -1;
+}
+
+.adad {
+  z-index: 1;
 }
 
 .text {
   margin-top: -40px;
   margin-left: 40px;
+}
+
+.cart {
+  height: 14rem;
+}
+
+.bi {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

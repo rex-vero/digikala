@@ -47,9 +47,16 @@
 .axsh {
    height: 2.2rem;
    width: auto;
+   z-index: -1;
+}
+.adad{
+   z-index: 1;
 }
 
 .text {
    margin-top: -40px;
    margin-left: 40px;
+}
+.cart{
+   height: 14rem;
 }
