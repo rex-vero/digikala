@@ -31,15 +31,15 @@
 .margin .normal-input {
   outline: none;
   border: none;
-  background-color: rgba(19, 201, 201, 0.075);
+  background-color: rgba(19, 201, 201, 0.123);
   border-top-left-radius: 9px;
   border-bottom-left-radius: 9px;
-  width: 60vw;
   padding-bottom: 4px;
+  width: 60vw;
 }
 .margin .normal-btn {
   border: none;
-  background-color: rgba(19, 201, 201, 0.075);
+  background-color: rgba(19, 201, 201, 0.123);
   color: #b4b4b4;
   border-top-right-radius: 9px;
   border-bottom-right-radius: 9px;
@@ -261,6 +261,20 @@
 
 .bi {
   font-size: 30px;
+}
+
+.email {
+  outline: none;
+  border: none;
+  background-color: rgba(19, 201, 201, 0.123);
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  padding-bottom: 4px;
+  width: 35vh;
+}
+
+.axta {
+  height: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

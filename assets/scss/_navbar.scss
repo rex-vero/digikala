@@ -10,12 +10,9 @@
     margin-right: 20px;
 
     .normal-input {
-        outline: none;
-        @include btnstyle();
-        border-top-left-radius: $radius;
-        border-bottom-left-radius: $radius;
+        @include email();
         width: 60vw;
-        padding-bottom: 4px;
+       
     }
 
     .normal-btn {

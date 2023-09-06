@@ -6,3 +6,10 @@
     border-right: $takborder;
     height: 20px;
 }
+@mixin email{
+outline: none;
+@include btnstyle();
+border-top-left-radius: $radius;
+border-bottom-left-radius: $radius;
+padding-bottom: 4px;
+}

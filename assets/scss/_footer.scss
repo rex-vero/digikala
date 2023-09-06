@@ -1,3 +1,10 @@
 .bi{
     font-size: 30px;
 }
+.email{
+    @include email();
+    width: 35vh;
+}
+.axta{
+    height: 1rem;
+}
